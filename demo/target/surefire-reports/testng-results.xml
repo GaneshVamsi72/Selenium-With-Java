@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T22:21:43 IST" name="Surefire suite" finished-at="2025-09-08T22:23:51 IST" duration-ms="128096">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T22:21:43 IST" name="Surefire test" finished-at="2025-09-08T22:23:51 IST" duration-ms="128096">
+      <class name="part3.SeleniumInteractions">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:part3.SeleniumInteractions@69b2283a]" started-at="2025-09-08T22:21:43 IST" name="setUp" finished-at="2025-09-08T22:21:49 IST" duration-ms="5837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="backToHome()[pri:0, instance:part3.SeleniumInteractions@69b2283a]" started-at="2025-09-08T22:21:49 IST" name="backToHome" finished-at="2025-09-08T22:23:47 IST" duration-ms="117981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHome -->
+        <test-method signature="testingUsingKeyboard()[pri:0, instance:part3.SeleniumInteractions@69b2283a]" started-at="2025-09-08T22:23:47 IST" name="testingUsingKeyboard" finished-at="2025-09-08T22:23:51 IST" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingUsingKeyboard -->
+        <test-method is-config="true" signature="failedResultScreenshot(org.testng.ITestResult)[pri:0, instance:part3.SeleniumInteractions@69b2283a]" started-at="2025-09-08T22:23:51 IST" name="failedResultScreenshot" finished-at="2025-09-08T22:23:51 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingUsingKeyboard status=SUCCESS method=SeleniumInteractions.testingUsingKeyboard()[pri:0, instance:part3.SeleniumInteractions@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:part3.SeleniumInteractions@69b2283a]" started-at="2025-09-08T22:23:51 IST" name="tearDown" finished-at="2025-09-08T22:23:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- part3.SeleniumInteractions -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
